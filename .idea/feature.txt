@@ -1,0 +1,7 @@
+ei project er feature ki ki hobe eta niche decide kora holo . 
+ 1. login registation feature takhbe only for specific member select 
+ 2. login korar por oi member er dashboard dekhte pabe and total tk dekhte pabe 
+ 3. Admin takhbe admin sob kisu dekhte pabe 
+ 4. monthly Tk deposit hobe 1 month e 1 bar kore tk deposit hobe and after 3 month kew tar jomano tkar 30% tulte parbe . 
+ 5. Tk withdraw korle total tk tekhe tar withdraw kora tk minus hobe and tar dashboard e total deposit and total withdraw dekhabe and tar deposit kora tk tekhe o withdraw kora tk minus hobe .
+6. se dekhte parbe j total tkr upor tar koto tk joma ache and other lok er tk koto ache 
