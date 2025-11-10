@@ -18,6 +18,7 @@ const loginUser = async(payload:ILoginUser)=>{
     const jwtPayload = {
         email: userExist.email,
         role: userExist.role,
+        name:userExist.name
     }
     const accessToken = createToken(
         jwtPayload,

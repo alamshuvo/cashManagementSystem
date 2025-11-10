@@ -3,12 +3,12 @@ import { Model } from "mongoose"
 export const USER_ROLE={
     ADMIN:'admin',
     USER:'user'
-}
+} as const
 export interface IUser{
     name:string
     email:string
     password:string
-    role?: keyof typeof USER_ROLE
+    role?: TUserRole
 }
 export interface UserModela extends Model<IUser> {
     isUserExistsByEmail(email: string): Promise<IUser>
@@ -17,4 +17,4 @@ export interface UserModela extends Model<IUser> {
       hashedPassword: string
     ): Promise<boolean>
   }
-export type TUserRole = keyof typeof USER_ROLE;
+  export type TUserRole = (typeof USER_ROLE)[keyof typeof USER_ROLE];
